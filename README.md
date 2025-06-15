@@ -71,11 +71,22 @@ multi-agent-system/
 ## 🔐 .env Setup
 
 ```dotenv
+GOOGLE_API_KEY=your_GOOGLE_API_KEY
+GOOGLE_GENAI_USE_VERTEXAI="FALSE"
+
 OPENWEATHER_API_KEY=your_openweather_api_key
+
 SPACEX_API_URL=https://api.spacexdata.com/v5/launches/latest
+
 EMAIL_SENDER=your_email@gmail.com
 EMAIL_PASSWORD=your_app_password
 EMAIL_RECEIVER=receiver@example.com
+
+OTEL_SERVICE_NAME=multi_agent_system
+OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4318
+OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
+
+ENABLE_TRACING=true
 ```
 
 ---
