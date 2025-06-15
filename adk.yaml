@@ -1,0 +1,11 @@
+agents:
+  - name: root
+    entry: agents.root_agent.RootAgent
+  - name: planner
+    entry: agents.planner_agent.PlannerAgent
+  - name: delay
+    entry: agents.delay_agent.DelayAgent
+  - name: spacex
+    entry: agents.spacex_agent.SpaceXAgent
+  - name: weather
+    entry: agents.weather_agent.WeatherAgent
