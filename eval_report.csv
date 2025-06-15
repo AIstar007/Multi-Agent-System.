@@ -1,0 +1,4 @@
+Test ID,Status,Details,Timestamp,Runtime (s)
+test_case_1,PASS,All checks passed.,2025-06-14 17:01:44,1.27
+test_case_2,FAIL,Missing key: launch; Missing key: weather; Missing key: assessment,2025-06-14 17:01:46,0.0
+spacex-weather-delay-test,FAIL,Missing key: launch_location; Missing key: weather_forecast; Unexpected assessment: ✅ Launch is likely to proceed as planned.,2025-06-14 17:01:46,1.23
