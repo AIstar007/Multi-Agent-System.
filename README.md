@@ -107,8 +107,7 @@ cp .env.example .env  # Fill in your credentials
 ### 🔹 CLI Mode
 
 ```bash
-python run.py
-# Enter your goal when prompted
+adk web
 ```
 
 ### 🔹 Evaluate All Test Cases
