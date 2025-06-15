@@ -1,0 +1,10 @@
+{
+  "test_id": "test_case_1",
+  "input_goal": "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed.",
+  "expected_plan": ["spacex", "weather", "delay"],
+  "expected_result_keys": ["launch", "weather", "assessment"],
+  "valid_assessments": [
+    "✅ Launch is likely to proceed as planned.",
+    "⚠️ Possible delay due to bad weather."
+  ]
+}
