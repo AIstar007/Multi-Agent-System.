@@ -24,6 +24,7 @@ This project implements a **multi-agent system** inspired by Google ADK. It take
 ## 🧰 Built With
 
 - **Python 3.10+**
+- GOOGLE ADK - for designing agent
 - [OpenWeatherMap API](https://openweathermap.org/api)
 - [SpaceX Launches API](https://github.com/r-spacex/SpaceX-API)
 - `streamlit` – for live dashboards
