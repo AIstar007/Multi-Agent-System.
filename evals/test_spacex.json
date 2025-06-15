@@ -1,0 +1,6 @@
+{
+  "test_id": "spacex-weather-delay-test",
+  "input_goal": "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed.",
+  "expected_result_keys": ["launch_location", "weather_forecast", "assessment"],
+  "valid_assessments": ["Likely delayed", "On schedule", "Possibly delayed"]
+}
